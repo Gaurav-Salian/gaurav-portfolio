@@ -702,6 +702,7 @@ body.light-theme{
     border-radius: 1rem;
     margin-bottom: .75rem;
     /* opacity:0; */
+    max-width: 100%;
 
 }
 
@@ -709,7 +710,7 @@ body.light-theme{
     position: relative;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: .25rem;
+    margin-top: 1.25rem;
 }
 
 .work__button{
@@ -1053,7 +1054,7 @@ body.light-theme{
     }
 
     .work__img{
-        width: 295px;
+        max-width: 100%;
     }
 
     .contact__info{
